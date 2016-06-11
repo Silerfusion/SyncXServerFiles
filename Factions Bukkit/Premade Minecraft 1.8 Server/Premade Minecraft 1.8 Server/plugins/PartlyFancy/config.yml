@@ -1,0 +1,16 @@
+## PartlyFancy Configuration
+
+## Do not change.
+version: 2.8.0.0
+
+## [PREFIX] A random message that the plugin might send here. [DEFAULT: '&9[&bPartlyFancy&9] ']
+prefix: "&9[&bPartlyFancy&9] "
+
+## Give players the fancy item on join.
+fancyitem: true
+
+## Auto update the plugin, no need to check AND download the new version. Checking the page is highly recommended however.
+auto-update: true
+
+## Auto Update interval (In minutes)
+update-interval: 10

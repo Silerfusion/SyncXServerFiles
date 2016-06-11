@@ -1,0 +1,171 @@
+groups:
+  member:
+    options:
+      default: true
+      prefix: '&a[ Member ]&f'
+    permissions:
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.clearinventory
+    - essentials.delhome
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.ignore
+    - essentials.info
+    - essentials.kit
+    - essentials.kits.tools
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.pay
+    - essentials.ping
+    - essentials.protect
+    - essentials.rules
+    - essentials.realname
+    - essentials.see
+    - essentials.sethome
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.build.*
+    - essentials.warps.list
+    - essentials.warps.*
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.signs.use
+    - essentials.chat.color
+    - modifyworld.*
+    - multiverse.access.*
+    - silkspawners.info
+    - silkspawners.viewtype
+    - silkspawners.place.*
+    - silkspawners.silkdrop.*
+    - lwc.protect
+    - iConomy.acess
+    - iConomy.list
+    - treereplant.breaksapling
+    - iConomy.payment
+    - iConomy.rank
+    - authme.register
+    - authme.login
+    - authme.logout
+    - authme.register
+    - authme.changepassword
+    - authme.unregister
+  moderator:
+    options:
+      default: false
+      prefix: '&d[ Moderator ]&f '
+    permissions:
+    - spawnskype
+    - worldguard.*
+    - essentials.invsee
+    - essentials.tphere
+    - essentials.tp
+    - essentials.broadcast
+    - essentials.give
+    - essentials.feed
+    - essentials.feed.other
+    - essentials.time.set
+    - essentials.time
+    - essentials.weather
+    - essentials.setwarp
+    - worldedit.*
+    - worldguard.region.bypass.*
+    - essentials.gamemode
+    - essentials.kick
+    - essentials.tphere
+    - essentials.tpall
+    - essentials.ban
+    - essentials.tempban
+    - getstaff.read
+    - OpenInv.openinv
+    - OpenInv.openself
+    - OpenInv.openenderall
+    - ChestShop.mod
+    - OpenInv.search
+    - OpenInv.silent
+  OniiPai:
+    options:
+      default: false
+      prefix: '&d[ Moderator ]&f '
+    permissions:
+    - spawnskype
+    - worldguard.*
+    - essentials.invsee
+    - essentials.tphere
+    - essentials.tp
+    - essentials.broadcast
+    - essentials.give
+    - essentials.feed
+    - essentials.feed.other
+    - essentials.time.set
+    - essentials.time
+    - essentials.weather
+    - essentials.setwarp
+    - worldedit.*
+    - worldguard.region.bypass.*
+    - essentials.gamemode
+    - essentials.kick
+    - essentials.tphere
+    - essentials.tpall
+    - essentials.ban
+    - essentials.tempban
+    - getstaff.read
+    - OpenInv.openinv
+    - OpenInv.openself
+    - OpenInv.openenderall
+    - ChestShop.mod
+    - OpenInv.search
+    - OpenInv.silent
+  admin:
+    options:
+      default: false
+      prefix: '&9[ Admin ]&f '
+    permissions:
+    - spawnskype
+    - '*'
+  owner:
+    options:
+      default: false
+      prefix: '&c[ Owner ]&f '
+    permissions:
+    - '*'
+  singingsteve:
+    permissions:
+    - admin
+schema-version: 1
+users:
+  943e498b-2f8a-3f96-a694-a0d9c67eae1b:
+    options:
+      name: CaptainVinceO2
+    group:
+    - owner
+  a1cf3442-fd13-355e-89c8-24eeba0ad189:
+    options:
+      name: GravityFields
+    group:
+    - owner
+  e5398592-069d-39d1-b0c5-a9e3764582fe:
+    options:
+      name: singingsteve
+    group:
+    - owner
+  6358ffb9-a0c4-31da-94b7-ce1499b8d64f:
+    group:
+    - moderator
+    options:
+      name: spawnskype

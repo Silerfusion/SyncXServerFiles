@@ -1,0 +1,26 @@
+lastAccountName: CaptainVinceO2
+timestamps:
+  login: 1465662299897
+  logout: 1465663180277
+  lastteleport: 1465663010699
+  kits:
+    color: 1465602902479
+    notch: 1465602880228
+    dtools: 1465602891960
+ipAddress: 192.168.0.10
+lastlocation:
+  world: world
+  x: -1291.1411710216726
+  y: 96.83521298594042
+  z: -60.46932208247586
+  yaw: 215.93484
+  pitch: 22.270119
+money: '999999989795.0'
+logoutlocation:
+  world: world
+  x: 124.97185666812179
+  y: 84.0
+  z: -498.17964237120293
+  yaw: 146.23236
+  pitch: 37.751385
+afk: false

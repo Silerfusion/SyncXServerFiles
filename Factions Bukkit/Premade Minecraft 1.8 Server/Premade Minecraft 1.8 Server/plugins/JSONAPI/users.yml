@@ -1,0 +1,12 @@
+users:
+- username: SyncXJSON
+  password: SyncXJSON
+  logging: true
+  groups:
+  - full_control
+- username: SyncXJSONCHAT
+  password: SyncXJSONCHAT
+  logging: true
+  groups:
+  - chat_only
+  salt: 231456789

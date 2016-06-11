@@ -1,0 +1,31 @@
+Keys:
+  default:
+    name: '&aCrate Key'
+    lore:
+    - '&7Right click a crate'
+    - '&7to use the key!'
+    itemId: 131
+    glow: true
+    winMessage: '&3<player> has won the prize <prize> in a crate!'
+    loot:
+    - diamonds
+    - food
+    - sword
+    - gold
+    - tools
+    - crateKey
+  golden:
+    name: '&6Golden Key'
+    lore:
+    - '&7Right click a crate'
+    - '&7to use the key!'
+    itemId: 396
+    glow: true
+    winMessage: '&6<player> has won the prize <prize> in a crate!'
+    loot:
+    - diamonds
+    - sword
+    - gold
+    - godApple
+    - crateKey
+    - devHead

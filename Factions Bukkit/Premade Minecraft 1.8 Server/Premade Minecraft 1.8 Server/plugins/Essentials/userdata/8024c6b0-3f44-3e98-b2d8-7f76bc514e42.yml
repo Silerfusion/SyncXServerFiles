@@ -1,0 +1,25 @@
+lastAccountName: Gurgatory
+timestamps:
+  login: 1440390567538
+  logout: 1440391685962
+  lastteleport: 1440391536731
+ipAddress: 108.80.185.55
+lastlocation:
+  world: Planet
+  x: -23.93839943447754
+  y: 37.0
+  z: -16.771485533759098
+  yaw: -57.146317
+  pitch: 33.479576
+logoutlocation:
+  world: world
+  x: 453.36704485501417
+  y: 73.10226953102185
+  z: -246.65795170023642
+  yaw: -154.92798
+  pitch: 36.223316
+powertools:
+  '352':
+  - thor
+  '393':
+  - fireball

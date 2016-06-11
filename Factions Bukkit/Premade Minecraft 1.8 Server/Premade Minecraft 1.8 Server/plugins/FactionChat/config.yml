@@ -1,0 +1,106 @@
+# 
+# some servers have /k as their defualt command for /factions
+ForceToUseNewFactionsClasses: false
+MetricsOptOut: false
+DontUseAsyncEvent: false
+UseDevBanManager: false
+FactionsCommand: f
+spyModeOnByDefault: true
+AllowAuthorDebugAccess: true
+PublicMuteDefault: false
+ChatLimit: 100
+AllowPublicMuteCommand: false
+DisabledCommands:
+- Example_fchatf
+- Example_fchatat
+- Example_fa
+- Example_fat
+EventPriority:
+  onPlayerChat: 1
+  onPlayerChatLocalOption: 3
+  onPlayerCommand: 1
+  onPlayerJoin: 3
+FactionRank:
+  Leader: Leader
+  Officer: Officer
+  Member: Member
+  Recruit: Recruit
+Features:
+  LocalChat:
+    Enable: false
+    Radius:
+      Public: 50
+      FactionChatChannel: -1
+FactionChatMessage:
+  IncludePrefix: true
+  IncludeSuffix: true
+  IncludeTitle: true
+  FactionChat: '&2[{0}] &f[{1}] {T}{2}: {M}'
+  AllyChat: '&aAlly: [{0}] &f[{1}] {T}{2}: {M}'
+  TruceChat: '&aTruce: [{0}] &f[{1}] {T}{2}: {M}'
+  AllyTruceChat: '&aALLY-TRUCE: [{0}] &f[{1}] {T}{2}: {M}'
+  OfficerChat: '&eOfficerChat: [{0}] {T}&f{1}: {M}'
+  LeaderChat: '&eLeaderChat: [{0}] {T}&f{1}: {M}'
+  EnemyChat: '&cEnemy: [{0}] &f[{1}] {T}{2}: {M}'
+  OtherFactionChatTo: '&5[@:{0}] &f[{1}] {T}-{2}: {M}'
+  OtherFactionChatFrom: '&5[From:{0}] &f[{1}] {T}-{2}: {M}'
+  OtherFactionChatSpy: '&5[@:{0}]-[From:{1}] &f[{2}] {T}-{3}: {M}'
+  SpyChat: '&2Spy:&r {0}'
+OtherChatMessage:
+  ModChat: '&b[Mod-Chat] &f{0}: &a{M}'
+  AdminChat: '&4[Admin-Chat] &f{0}: &a{M}'
+  UAChat: '&5[UA-Chat] &f{0}: &a{M}'
+  JrModChat: '&b[JrMod-Chat] &f{0}: &a{M}'
+  SrModChat: '&b[SrMod-Chat] &f{0}: &a{M}'
+  JrAdminChat: '&4[JrAdmin-Chat] &f{0}: &a{M}'
+  VIPChat: '&e[VIP-Chat] &f{0}: &a{M}'
+FactionChatEnable: true
+AllyChatEnable: true
+TruceChatEnable: true
+AllyTruceChatEnable: true
+LeaderChatEnable: true
+OfficerChatEnable: true
+EnemyChatEnable: true
+OtherChatEnable: true
+ModChatEnable: true
+AdminChatEnable: true
+JrModChatEnable: true
+SrModChatEnable: true
+JrAdminChatEnable: true
+UAChatEnable: true
+VIPChatEnable: true
+MessageLanguage: english
+message:
+  english:
+    NotInFaction: You are not member of any faction
+    IncorectChatModeSwitch: 'Error: please use /fc to switch chat mode or'
+    SpyModeOn: Spy mode is now on
+    SpyModeOff: Spy mode is now off
+    NewChatMode: 'Your chat mode has been changed to: '
+    FchatoMissType: 'Error: Please use /fco factionname message.'
+    FchatoNoOneOnline: 'Error: either no faction member is online or incorrect faction
+      name'
+    PublicMuteChatOn: Public chat is now muted for you
+    PublicMuteChatOff: Public chat is no longer muted for you
+    AllyMuteChatOn: Ally chat is now muted for you
+    AllyMuteChatOff: Ally chat is no longer muted for you
+  other:
+    NotInFaction: You are not member of any faction
+    IncorectChatModeSwitch: 'Error: please use /fc to switch chat mode or'
+    SpyModeOn: Spy mode is now on
+    SpyModeOff: Spy mode is now off
+    NewChatMode: 'Your chat mode has been changed to: '
+    FchatoMissType: 'Error: Please use /fco factionname message.'
+    FchatoNoOneOnline: 'Error: either no faction member is online or incorrect faction
+      name'
+    PublicMuteChatOn: Public chat is now muted for you
+    PublicMuteChatOff: Public chat is no longer muted for you
+  ChatModeChange:
+    FactionChat: '&2Faction'
+    AllyChat: '&aAlly'
+    TruceChat: '&aTruce'
+    AllyTruceChat: '&aAlly-Truce'
+    EnemyChat: '&cEnemy'
+    LeaderChat: '&eLeader'
+    OfficerChat: '&eOfficer'
+    PublicChat: PUBLIC

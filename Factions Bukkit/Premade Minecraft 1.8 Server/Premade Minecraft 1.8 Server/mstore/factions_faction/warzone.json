@@ -1,0 +1,147 @@
+{
+  "name": "WarZone",
+  "description": "Not the safest place to be",
+  "createdAtMillis": 1440297757005,
+  "flags": {
+    "open": false,
+    "permanent": true,
+    "peaceful": true,
+    "infpower": true,
+    "powerloss": true,
+    "pvp": true,
+    "friendlyfire": false,
+    "monsters": true,
+    "explosions": true,
+    "offlineexplosions": true,
+    "firespread": true,
+    "endergrief": true
+  },
+  "perms": {
+    "build": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER"
+    ],
+    "painbuild": [],
+    "door": [
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "LEADER",
+      "TRUCE",
+      "ALLY",
+      "NEUTRAL",
+      "OFFICER"
+    ],
+    "button": [
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "LEADER",
+      "TRUCE",
+      "ALLY",
+      "NEUTRAL",
+      "OFFICER"
+    ],
+    "lever": [
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "LEADER",
+      "TRUCE",
+      "ALLY",
+      "NEUTRAL",
+      "OFFICER"
+    ],
+    "container": [
+      "MEMBER",
+      "ENEMY",
+      "RECRUIT",
+      "LEADER",
+      "TRUCE",
+      "ALLY",
+      "NEUTRAL",
+      "OFFICER"
+    ],
+    "name": [
+      "LEADER"
+    ],
+    "desc": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "motd": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "invite": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "kick": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "title": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "home": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY"
+    ],
+    "sethome": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "deposit": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY",
+      "TRUCE",
+      "NEUTRAL",
+      "ENEMY"
+    ],
+    "withdraw": [
+      "LEADER"
+    ],
+    "territory": [
+      "MEMBER",
+      "LEADER",
+      "OFFICER"
+    ],
+    "access": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "claimnear": [
+      "LEADER",
+      "OFFICER",
+      "MEMBER",
+      "RECRUIT",
+      "ALLY"
+    ],
+    "rel": [
+      "LEADER",
+      "OFFICER"
+    ],
+    "disband": [
+      "LEADER"
+    ],
+    "flags": [
+      "LEADER"
+    ],
+    "perms": [
+      "LEADER"
+    ],
+    "status": [
+      "LEADER",
+      "OFFICER"
+    ]
+  }
+}

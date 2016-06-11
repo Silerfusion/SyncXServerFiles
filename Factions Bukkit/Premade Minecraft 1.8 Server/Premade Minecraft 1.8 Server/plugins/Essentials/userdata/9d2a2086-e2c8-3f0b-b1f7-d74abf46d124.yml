@@ -1,0 +1,42 @@
+lastAccountName: Niften
+timestamps:
+  login: 1442680450791
+  logout: 1442679287427
+  lastteleport: 1442678800555
+  kits:
+    tools: 1442680596396
+ipAddress: 50.152.247.102
+lastlocation:
+  world: Tutorial
+  x: -61.102453545209194
+  y: 139.62583507429164
+  z: 56.285612601252055
+  yaw: 225.306
+  pitch: 32.220203
+homes:
+  poop:
+    world: world
+    x: 44.150789431738296
+    y: 72.0
+    z: 195.36613640389643
+    yaw: -39.485962
+    pitch: 33.49269
+  home:
+    world: world
+    x: 104.47899487476509
+    y: 90.0
+    z: 36.36352486032262
+    yaw: -182.78503
+    pitch: 0.18757413
+logoutlocation:
+  world: world
+  x: 100.27357499452711
+  y: 87.1143921481195
+  z: 99.72438428962755
+  yaw: -46.416862
+  pitch: 34.097748
+afk: false
+money: '4184.0'
+powertools:
+  '351':
+  - thor

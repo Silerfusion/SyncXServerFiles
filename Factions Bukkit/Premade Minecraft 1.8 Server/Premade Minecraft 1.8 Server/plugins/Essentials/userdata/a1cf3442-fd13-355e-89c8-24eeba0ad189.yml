@@ -1,0 +1,43 @@
+lastAccountName: GravityFields
+timestamps:
+  login: 1465678967367
+  lastteleport: 1465679074880
+  logout: 1465662974912
+  kits:
+    firework: 1465592562683
+    notch: 1465592543455
+    tools: 1465656014303
+ipAddress: 166.48.102.168
+lastlocation:
+  world: SpawnWorld
+  x: 177.26314137815055
+  y: 9.0
+  z: -216.79025765270586
+  yaw: 6.500679
+  pitch: 69.23406
+nickname: "\xa79Adr\xa72ian"
+money: '9899700.0'
+homes:
+  ez:
+    world: world
+    x: 506.5
+    y: 78.0
+    z: 194.5
+    yaw: 117.92639
+    pitch: 34.819473
+  home:
+    world: world
+    x: 102.5
+    y: 74.0
+    z: -416.5
+    yaw: 192.54825
+    pitch: 36.617428
+godmode: true
+afk: false
+logoutlocation:
+  world: world
+  x: -1289.5362513423386
+  y: 89.0
+  z: -52.40950676769003
+  yaw: 10.295211
+  pitch: 3.628454

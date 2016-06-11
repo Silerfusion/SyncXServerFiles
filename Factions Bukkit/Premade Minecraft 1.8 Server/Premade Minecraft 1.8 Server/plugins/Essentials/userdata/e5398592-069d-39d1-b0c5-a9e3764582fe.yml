@@ -1,0 +1,29 @@
+lastAccountName: singingsteve
+timestamps:
+  login: 1465678890300
+  logout: 1465662359769
+  lastteleport: 1465662898475
+ipAddress: 173.206.11.62
+lastlocation:
+  world: world
+  x: -1299.0656846149202
+  y: 91.15472432865664
+  z: -54.34834020619864
+  yaw: 268.44565
+  pitch: -1.9889915
+logoutlocation:
+  world: SpawnWorld
+  x: 14.12165593359284
+  y: 7.154731793074618
+  z: 13.488188514029806
+  yaw: -236.48367
+  pitch: 20.46578
+nickname: JL
+homes:
+  home:
+    world: SpawnWorld
+    x: 0.56383164441423
+    y: 11.0
+    z: 0.7484355475075648
+    yaw: 28.798468
+    pitch: 7.178899

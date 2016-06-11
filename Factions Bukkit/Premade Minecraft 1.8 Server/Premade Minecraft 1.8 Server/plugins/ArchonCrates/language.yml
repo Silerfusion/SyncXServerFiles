@@ -1,0 +1,31 @@
+Prefix: '&7[&aArchonCrates&7] '
+Error Message: '&cError, try /archoncrates'
+No Permission: '&cYou do not have permission to do that!'
+Player Only Command: '&cThis command is for players only!'
+Crate In use: '&cThat crate is in use try again later!'
+Cant Open Without a key: '&cYou cant open a crate without a key!'
+Not enabled in world: '&cCrates are not enabled in this world!'
+Commands:
+  reload: '&aReload complete!'
+  create:
+    alreadyCrate: '&cThat is already a crate!'
+    created: '&aCrate created!'
+    noCrateType: '&cThat block can not be a crate! Crates must be: <crateType>!'
+  remove:
+    removed: '&aCrate removed!'
+    notCrate: '&cThat is not a crate!'
+    noCrates: '&cThere are no crates to remove!'
+    blockNotCrate: '&cThat block is not a crate!'
+  giveKey:
+    given: '&aGiven <amount> keys to <player>!'
+    notOnline: '&c<player> is not online! You cant give keys to offline players!'
+    No key: '&cThere is no key with that name!'
+    given all: '&aGiven <amount> keys to all players!'
+Signs:
+  No economy plugin: '&cYou can''t buy keys because Vault is not installed! Contact
+    an Administrator'
+  buy:
+    created: '&aBuy sign created!'
+    removed: '&cBuy sign removed!'
+    buy: <amount> has been taken from your account.
+    noMoney: '&cYou do not have enought money to do that!'

@@ -1,0 +1,6 @@
+join:
+    enable-message: true
+    message: '&8&l[&r&4+&8&l] &c{player}!'
+leave:
+    enable-message: true
+    message: '&8&l[&r&4-&8&l] &c{player}!'

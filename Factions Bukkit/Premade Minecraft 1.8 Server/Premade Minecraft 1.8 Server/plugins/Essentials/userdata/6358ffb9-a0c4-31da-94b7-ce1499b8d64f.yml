@@ -1,0 +1,23 @@
+lastAccountName: spawnskype
+timestamps:
+  login: 1465661847382
+  lastteleport: 1465662421931
+  kits:
+    tools: 1465661934502
+  logout: 1465662446694
+ipAddress: 65.92.12.182
+lastlocation:
+  world: world
+  x: 95.38650899648911
+  y: 68.0
+  z: -438.853148012192
+  yaw: 246.09012
+  pitch: 24.808678
+money: '100000000000'
+logoutlocation:
+  world: world
+  x: 101.93595996899636
+  y: 67.0
+  z: -436.98258115847773
+  yaw: 35.20816
+  pitch: 3.1485493

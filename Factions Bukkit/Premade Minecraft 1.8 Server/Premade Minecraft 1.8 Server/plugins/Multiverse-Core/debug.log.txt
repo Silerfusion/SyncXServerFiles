@@ -1,0 +1,29 @@
+2016-06-09 20:16:01 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-06-09 20:16:01 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 5019675044437368420
+2016-06-09 20:16:02 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2625514614800262007
+2016-06-09 20:16:02 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2016-06-09 20:16:02 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2016-06-09 20:16:02 [INFO] [Multiverse-Core] New Spawn for 'world_nether' is Located at: world_nether:0.00,60.00,0.00:0.00:0.00
+2016-06-09 20:16:02 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2625514614800262007
+2016-06-09 20:16:02 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2016-06-09 20:16:02 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2016-06-09 20:16:02 [INFO] [Multiverse-Core] New Spawn for 'world_the_end' is Located at: world_the_end:0.00,63.00,0.00:0.00:0.00
+2016-06-09 20:16:02 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 5019675044437368420
+2016-06-09 20:16:02 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2625514614800262007
+2016-06-09 20:16:02 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2625514614800262007
+2016-06-09 20:16:02 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2016-06-09 20:16:32 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-06-09 20:16:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 5019675044437368420
+2016-06-09 20:16:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2625514614800262007
+2016-06-09 20:16:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2625514614800262007
+2016-06-09 20:16:32 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2016-06-09 20:37:32 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-06-09 20:37:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 5019675044437368420
+2016-06-09 20:37:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 4367351061317344844
+2016-06-09 20:37:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 4367351061317344844
+2016-06-09 20:37:32 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2016-06-09 20:37:55 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-06-09 20:37:56 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 5019675044437368420
+2016-06-09 20:37:56 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 724268036181738511
+2016-06-09 20:37:56 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 724268036181738511
+2016-06-09 20:37:56 [INFO] [Multiverse-Core] 3 - World(s) loaded.

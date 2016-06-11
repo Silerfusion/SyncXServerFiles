@@ -1,0 +1,4 @@
+Config:
+  Messages:
+    Joinmessage: '&e%player% joined the game.'
+    Leavemessage: '&e%player% left the game.'

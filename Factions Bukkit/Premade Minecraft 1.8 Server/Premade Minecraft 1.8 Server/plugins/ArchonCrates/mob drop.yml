@@ -1,0 +1,188 @@
+Enabled: true
+Mobs that drop:
+  BAT:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  CHICKEN:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  COW:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  MOOSHROOM_COW:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  PIG:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  RABBIT:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  SHEEP:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  SQUID:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  VILLAGER:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  CAVE_SPIDER:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  ENDERMAN:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  SPIDER:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  PIG_ZOMBIE:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  BLAZE:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  CREEPER:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  ENDERMITE:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  GHAST:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  GUARDIAN:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  MAGMA_CUBE:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  SILVERFISH:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  SKELETON:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  SLIME:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  WITCH:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  ZOMBIE:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  HORSE:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  OCELOT:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  WOLF:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  IRON_GOLEM:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  SNOWMAN:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  ENDER_DRAGON:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden
+  WITHER:
+    enabled: true
+    chance: 10%
+    keysThatDrop:
+    - default
+    - golden

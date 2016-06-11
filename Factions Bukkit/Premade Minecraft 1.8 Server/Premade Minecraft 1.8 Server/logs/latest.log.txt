@@ -1,0 +1,282 @@
+[20:37:27] [Server thread/INFO]: Starting minecraft server version 1.8
+[20:37:27] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_91]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_91]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_91]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_91]
+	at java.io.FilterInputStream.read(Unknown Source) ~[?:1.8.0_91]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader$1.read(ConsoleReader.java:167) ~[spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:267) ~[spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:204) ~[spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:995) ~[spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:1506) ~[spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1153) ~[spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1117) ~[spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1105) ~[spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at net.minecraft.server.v1_8_R1.ThreadCommandReader.run(ThreadCommandReader.java:35) [spigot.jar:git-Spigot-8dc4297-a7287cb]
+[20:37:27] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[20:37:27] [Server thread/INFO]: Loading properties
+[20:37:27] [Server thread/INFO]: Default game type: SURVIVAL
+[20:37:27] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-8dc4297-a7287cb (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[20:37:27] [Server thread/INFO]: Debug logging is disabled
+[20:37:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:37:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:37:27] [Server thread/INFO]: Generating keypair
+[20:37:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:37:27] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:37:27] [Server thread/INFO]: [CleanroomGenerator] Loading CleanroomGenerator v1.0.0
+[20:37:27] [Server thread/INFO]: [NoJoinMessage] Loading NoJoinMessage v1.7
+[20:37:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.3
+[20:37:27] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[20:37:27] [Server thread/INFO]: [EssentialsKitEdit] Loading EssentialsKitEdit v2.3
+[20:37:27] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[20:37:27] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild vTeamCity
+[20:37:27] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[20:37:27] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[20:37:27] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.5.05-SNAPSHOT-b136
+[20:37:27] [Server thread/INFO]: [Vault] Loading Vault v1.4.1-b436
+[20:37:27] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vTeamCity
+[20:37:27] [Server thread/INFO]: [MassiveCore] Loading MassiveCore v2.8.0
+[20:37:27] [Server thread/INFO]: TimeUnit.MILLIS_PER_MINUTE: 60000
+[20:37:27] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[20:37:27] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.0.0-SNAPSHOT
+[20:37:27] [Server thread/INFO]: [Factions] Loading Factions v2.8.0
+[20:37:27] [Server thread/INFO]: [CombatLog] Loading CombatLog v1.8.11-hack
+[20:37:27] [Server thread/INFO]: [floAuction] Loading floAuction v3.1.0
+[20:37:27] [Server thread/INFO]: [FactionChat] Loading FactionChat v1.9.10
+[20:37:27] [Server thread/INFO]: [ArchonCrates] Loading ArchonCrates v10.0
+[20:37:27] [Server thread/INFO]: [CleanroomGenerator] Enabling CleanroomGenerator v1.0.0
+[20:37:27] [Server thread/INFO]: [CleanroomGenerator] CleanroomGenerator v1.0.0 enabled
+[20:37:27] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.5.05-SNAPSHOT-b136
+[20:37:27] [Server thread/ERROR]: [mcMMO] There was an error while enabling mcMMO!
+[20:37:27] [Server thread/WARN]: java.lang.NoSuchFieldError: MENDING
+[20:37:27] [Server thread/WARN]: 	at com.gmail.nossr50.util.EnchantmentUtils.<clinit>(EnchantmentUtils.java:34)
+[20:37:27] [Server thread/WARN]: 	at com.gmail.nossr50.config.treasure.TreasureConfig.loadEnchantments(TreasureConfig.java:478)
+[20:37:27] [Server thread/WARN]: 	at com.gmail.nossr50.config.treasure.TreasureConfig.loadKeys(TreasureConfig.java:135)
+[20:37:27] [Server thread/WARN]: 	at com.gmail.nossr50.config.treasure.TreasureConfig.<init>(TreasureConfig.java:76)
+[20:37:27] [Server thread/WARN]: 	at com.gmail.nossr50.config.treasure.TreasureConfig.getInstance(TreasureConfig.java:82)
+[20:37:27] [Server thread/WARN]: 	at com.gmail.nossr50.mcMMO.loadConfigFiles(mcMMO.java:381)
+[20:37:27] [Server thread/WARN]: 	at com.gmail.nossr50.mcMMO.onEnable(mcMMO.java:141)
+[20:37:27] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[20:37:27] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335)
+[20:37:27] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[20:37:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.loadPlugin(CraftServer.java:352)
+[20:37:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.enablePlugins(CraftServer.java:313)
+[20:37:27] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R1.DedicatedServer.init(DedicatedServer.java:153)
+[20:37:27] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:494)
+[20:37:27] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[20:37:27] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.5.05-SNAPSHOT-b136
+[20:37:27] [Server thread/ERROR]: [mcMMO] Cannot read C:\Users\Vince\Documents\MC SERVER\Factions Bukkit\Premade Minecraft 1.8 Server\Premade Minecraft 1.8 Server\plugins\mcMMO\experience.yml(File Permissions?)
+[20:37:27] [Server thread/ERROR]: [mcMMO] Cannot read C:\Users\Vince\Documents\MC SERVER\Factions Bukkit\Premade Minecraft 1.8 Server\Premade Minecraft 1.8 Server\plugins\mcMMO\repair.vanilla.yml(File Permissions?)
+[20:37:27] [Server thread/ERROR]: Error occurred while disabling mcMMO v1.5.05-SNAPSHOT-b136 (Is it up to date?)
+java.lang.NullPointerException
+	at com.gmail.nossr50.mcMMO.onDisable(mcMMO.java:241) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:359) [spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:424) [spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at com.gmail.nossr50.mcMMO.onEnable(mcMMO.java:195) [mcMMO.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) [spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335) [spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.loadPlugin(CraftServer.java:352) [spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.enablePlugins(CraftServer.java:313) [spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at net.minecraft.server.v1_8_R1.DedicatedServer.init(DedicatedServer.java:153) [spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:494) [spigot.jar:git-Spigot-8dc4297-a7287cb]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_91]
+[20:37:27] [Server thread/INFO]: [Vault] Enabling Vault v1.4.1-b436
+[20:37:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:37:27] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[20:37:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:37:28] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[20:37:28] [Server thread/INFO]: [Vault] Enabled Version 1.4.1-b436
+[20:37:28] [Server thread/INFO]: [MassiveCore] Enabling MassiveCore v2.8.0
+[20:37:28] [Server thread/INFO]: [MassiveCore 2.8.0] === ENABLE START ===
+[20:37:28] [Server thread/INFO]: [MassiveCore 2.8.0] Loading Cachefile datas...
+[20:37:28] [Server thread/INFO]: [MassiveCore 2.8.0] Loading Onlineplayer datas...
+[20:37:28] [Server thread/INFO]: [MassiveCore 2.8.0] Loading Registry datas...
+[20:37:28] [Server thread/INFO]: [MassiveCore 2.8.0] Saving Cachefile...
+[20:37:28] [Server thread/INFO]: [MassiveCore 2.8.0] Setup of IdUtil took 6ms.
+[20:37:28] [Server thread/INFO]: [MassiveCore 2.8.0] Activated integration with Vault
+[20:37:28] [Server thread/INFO]: [MassiveCore 2.8.0] === ENABLE COMPLETE (Took 70ms) ===
+[20:37:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:37:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:37:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:37:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:37:28] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:37:28] [Server thread/INFO]: Preparing level "world"
+[20:37:28] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:37:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:37:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:37:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:37:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:37:28] [Server thread/INFO]: View Distance: 6
+[20:37:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:37:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:37:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:37:28] [Server thread/INFO]: Clear tick list: false
+[20:37:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:37:28] [Server thread/INFO]: Max Entity Collisions: 8
+[20:37:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:37:28] [Server thread/INFO]: Random Lighting Updates: false
+[20:37:28] [Server thread/INFO]: Mob Spawn Range: 4
+[20:37:28] [Server thread/INFO]: Structure Info Saving: true
+[20:37:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:37:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:37:28] [Server thread/INFO]: Max TNT Explosions: 100
+[20:37:28] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:37:28] [Server thread/INFO]: Anti X-Ray: true
+[20:37:28] [Server thread/INFO]: 	Engine Mode: 1
+[20:37:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:37:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:37:28] [Server thread/INFO]: Alternative Hopper Ticking: false
+[20:37:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:37:28] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:37:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:37:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:37:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:37:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:37:28] [Server thread/INFO]: View Distance: 6
+[20:37:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:37:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:37:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:37:28] [Server thread/INFO]: Clear tick list: false
+[20:37:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:37:28] [Server thread/INFO]: Max Entity Collisions: 8
+[20:37:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:37:28] [Server thread/INFO]: Random Lighting Updates: false
+[20:37:28] [Server thread/INFO]: Mob Spawn Range: 4
+[20:37:28] [Server thread/INFO]: Structure Info Saving: true
+[20:37:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:37:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:37:28] [Server thread/INFO]: Max TNT Explosions: 100
+[20:37:28] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:37:28] [Server thread/INFO]: Anti X-Ray: true
+[20:37:28] [Server thread/INFO]: 	Engine Mode: 1
+[20:37:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:37:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:37:28] [Server thread/INFO]: Alternative Hopper Ticking: false
+[20:37:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:37:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:37:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:37:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:37:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:37:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:37:28] [Server thread/INFO]: View Distance: 6
+[20:37:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:37:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:37:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:37:28] [Server thread/INFO]: Clear tick list: false
+[20:37:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:37:28] [Server thread/INFO]: Max Entity Collisions: 8
+[20:37:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:37:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:37:28] [Server thread/INFO]: Random Lighting Updates: false
+[20:37:28] [Server thread/INFO]: Mob Spawn Range: 4
+[20:37:28] [Server thread/INFO]: Structure Info Saving: true
+[20:37:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:37:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:37:28] [Server thread/INFO]: Max TNT Explosions: 100
+[20:37:28] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:37:28] [Server thread/INFO]: Anti X-Ray: true
+[20:37:28] [Server thread/INFO]: 	Engine Mode: 1
+[20:37:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:37:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:37:28] [Server thread/INFO]: Alternative Hopper Ticking: false
+[20:37:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:37:28] [Server thread/INFO]: Preparing start region for level 0 (Seed: 5019675044437368420)
+[20:37:29] [Server thread/INFO]: Preparing start region for level 1 (Seed: 724268036181738511)
+[20:37:30] [Server thread/INFO]: Preparing start region for level 2 (Seed: 724268036181738511)
+[20:37:30] [Server thread/INFO]: [NoJoinMessage] Enabling NoJoinMessage v1.7
+[20:37:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.3
+[20:37:30] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:37:30] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[20:37:30] [Server thread/WARN]: §4Version mismatch! Please update EssentialsKitEdit to the same version.
+[20:37:30] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[20:37:30] [Server thread/INFO]: git-Spigot-8dc4297-a7287cb (MC: 1.8)
+[20:37:30] [Server thread/INFO]: 1.8-R0.1-SNAPSHOT
+[20:37:30] [Server thread/INFO]: Using locale en_US
+[20:37:30] [Server thread/INFO]: Using locale en_US
+[20:37:30] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[20:37:30] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[20:37:30] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[20:37:30] [Server thread/INFO]: [EssentialsKitEdit] Enabling EssentialsKitEdit v2.3
+[20:37:32] [Server thread/INFO]: EssentialsKitEdit version 2.3 is enabled!
+[20:37:32] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[20:37:32] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild vTeamCity
+[20:37:32] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[20:37:32] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[20:37:32] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[20:37:32] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[20:37:32] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[20:37:32] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[20:37:32] [Server thread/INFO]: Essentials: Using PermissionsEx based permissions.
+[20:37:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vTeamCity
+[20:37:32] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[20:37:32] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[20:37:32] [Server thread/INFO]: [AllPay] - Version 10.0 - hooked into Essentials Economy for Multiverse-Core v2.4-b527
+[20:37:32] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 5019675044437368420
+[20:37:32] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 4367351061317344844
+[20:37:32] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 4367351061317344844
+[20:37:32] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[20:37:32] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.0.0-SNAPSHOT
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:37:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:37:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[20:37:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:37:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:37:32] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:37:32] [Server thread/INFO]: [Factions] Enabling Factions v2.8.0
+[20:37:32] [Server thread/INFO]: [Factions 2.8.0] === ENABLE START ===
+[20:37:32] [Server thread/INFO]: [Factions 2.8.0] === ENABLE COMPLETE (Took 218ms) ===
+[20:37:32] [Server thread/INFO]: [CombatLog] Enabling CombatLog v1.8.11-hack
+[20:37:32] [Server thread/INFO]: [CombatLog] Loading messages.properties.
+[20:37:32] [Server thread/INFO]: [CombatLog] Loading config.yml.
+[20:37:32] [Server thread/INFO]: [CombatLog] DisguiseCraft plugin not found! Disguise removal will not work.
+[20:37:32] [Server thread/INFO]: [CombatLog] CombatLog v1.8.11-hack Enabled.
+[20:37:32] [Server thread/INFO]: [floAuction] Enabling floAuction v3.1.0
+[20:37:32] [Server thread/ERROR]: [floAuction] ----- WhatIsIt Dependency Failure -----
+[20:37:32] [Server thread/ERROR]: [floAuction] ATTENTION!  THIS IS A NOTIFICATION THAT floAuction HAS NOT BEEN
+[20:37:32] [Server thread/ERROR]: [floAuction] ENABLED.  floAuction REQUIRES THE WhatIsIt PLUGIN AND YOU LACK
+[20:37:32] [Server thread/ERROR]: [floAuction] IT.  DOWNLOAD AND INSTALL WhatIsIt IF YOU WANT floAuction TO
+[20:37:32] [Server thread/ERROR]: [floAuction] PROVIDE YOU WITH IT'S LEGENDARY AUCTION FUNCTIONALITY!
+[20:37:32] [Server thread/ERROR]: [floAuction] ----- --------------------------- -----
+[20:37:32] [Server thread/INFO]: [floAuction] Disabling floAuction v3.1.0
+[20:37:32] [Server thread/INFO]: [floAuction] has been disabled.
+[20:37:32] [Server thread/INFO]: [FactionChat] Enabling FactionChat v1.9.10
+[20:37:32] [Server thread/INFO]: [FactionChat] using Factions API of: nz.co.lolnet.james137137.FactionChat.FactionsAPI.FactionsAPI_2_8_0
+[20:37:32] [Server thread/INFO]: FactionChat: Version: 1.9.10 Enabled.
+[20:37:32] [Server thread/INFO]: [ArchonCrates] Enabling ArchonCrates v10.0
+[20:37:32] [Server thread/INFO]: [ArchonCrates] has been enabled!
+[20:37:32] [Server thread/INFO]: +-------------------------------------------------------------+
+[20:37:32] [Server thread/INFO]: [ArchonCrates] Checking for updates...

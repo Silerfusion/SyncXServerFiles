@@ -1,0 +1,77 @@
+Crate Loot:
+  Diamonds:
+    Item ID: 264
+    Name: '&3Diamonds'
+    Broadcast: true
+    id: diamonds
+    Chance: 5
+    Prize Name: 10 diamonds
+    Command:
+    - give <player> 264 10
+  Food:
+    Item ID: 364
+    Name: '&dFood'
+    Broadcast: false
+    id: food
+    Chance: 40
+    Prize Name: food set
+    Command:
+    - give <player> 364 16
+    - give <player> 366 8
+    - give <player> 320 16
+  Sword:
+    Item ID: 276
+    Name: '&bSword'
+    Broadcast: true
+    id: sword
+    Chance: 10
+    Prize Name: diamond sword
+    Command:
+    - give <player> 276 1
+  Gold:
+    Item ID: 266
+    Name: '&6Gold'
+    Broadcast: true
+    id: gold
+    Chance: 15
+    Prize Name: 32 gold
+    Command:
+    - give <player> 266 32
+  Tools:
+    Item ID: 257
+    Name: '&7Tools'
+    Broadcast: false
+    id: tools
+    Chance: 20
+    Prize Name: Iron tools
+    Command:
+    - give <player> 257 1
+    - give <player> 256 1
+    - give <player> 258 1
+  GodApple:
+    Item ID: 322;1
+    Name: '&6God Apple'
+    Broadcast: true
+    id: godApple
+    Chance: 5
+    Prize Name: GOD APPLE
+    Command:
+    - give <player> 322:1 1
+  CrateKey:
+    Item ID: 131
+    Name: '&aCrate Key'
+    Broadcast: true
+    id: crateKey
+    Chance: 10
+    Prize Name: crate key
+    Command:
+    - archoncrates key <player> 1 default
+  DevHead:
+    Item ID: 397;3
+    Name: '&cDevelopers Head'
+    Broadcast: true
+    id: devHead
+    Chance: 30
+    Prize Name: developers head
+    Command:
+    - minecraft:give <player> skull 1 3 {SkullOwner:"Hamiii",Unbreakable:1}

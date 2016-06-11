@@ -1,0 +1,16 @@
+Check for updates: true
+Crate Type: 54
+Crate Title: '&aCrate'
+Open Sound: CHEST_OPEN
+Win Sound: LEVEL_UP
+Crate Effect Enabled: true
+Crate Effect: MOBSPAWNER_FLAMES
+Scroll Sound: NOTE_BASS
+Crate Time: 8
+Solid Background Colour: false
+Stop crate opening: true
+Worlds Enabled:
+- world
+- world_nether
+- world_the_end
+- world_moon
